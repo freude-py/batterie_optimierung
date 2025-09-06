@@ -1,7 +1,9 @@
+# Aufbereiten der Inputdatei - Stundenpreise in 15 Minuten Preise umwandeln.
+
 import openpyxl
 import os
 
-wb = openpyxl.load_workbook('H0_Preise.xlsx')
+wb = openpyxl.load_workbook('H0_Preise.xlsx')  # 
 ws = wb.active
 
 start_row = 4
